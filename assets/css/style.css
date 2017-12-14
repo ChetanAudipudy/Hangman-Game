@@ -1,12 +1,35 @@
 body{
-
+/*
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: space-between;
+	align-items: center;*/
 	background-image: url(http://getwallpapers.com/wallpaper/full/c/1/d/308411.jpg);
 	background-size: cover;
 	font-family: 'Unica One', cursive;
 	font-size: 20px;
 
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: auto;
+	padding: 40px;
+	background: rgba(0,0,0,.2);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 45px;
+
+}
+.h1{
+	font-size: 30px;
+	 font-weight: bold;
 }
