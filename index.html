@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<h1>Hangman: Pokémon Edition!</h1>
+<p id="inputField"></p>
+<p name="inputForm" id="keyInput" onkeyup="keyPress()"> Used letters: </p>
+<p id="wrongCount">Numer of wrong letters left : 6</p>
+
+<p id="advisedLetters">Wrong Letters:</p>
+<img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
+<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+<p id="finalWord"></p>
+
+</form>
+<audio id="winSound" src="win.mp3" class=""></audio>
+<audio id="loseSound" src="fail.mp3" class=""></audio>
+
+</body>
+</html>
