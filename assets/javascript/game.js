@@ -84,7 +84,7 @@ document.onkeyup = function keyPress(event){
     if (wrongLetter === 6) {
       window.alert("You need to improve on your knowledge about Pokemon!!");
       console.log(chosenWord);
-      document.querySelector("#finalWord").innerHTML = "The word is : " + chosenWord;
+      document.querySelector("#finalWord").innerHTML = "The word is : " + chosenWord.join("");
       var playSound = document.getElementById("loseSound");
       
         playSound.play();
